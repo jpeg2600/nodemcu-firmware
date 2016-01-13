@@ -6,8 +6,8 @@
 -- 2015/02/14 sza2 <sza2trash@gmail.com> Fix for negative values
 --------------------------------------------------------------------------------
 
--- Set module name as parameter of require
-local modname = ...
+-- Module name as parameter of require
+local modname = 'ds18b20'
 local M = {}
 _G[modname] = M
 --------------------------------------------------------------------------------
